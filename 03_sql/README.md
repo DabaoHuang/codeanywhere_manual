@@ -54,13 +54,9 @@ codeanywhere資料庫使用
 建立資料表
 
 `CREATE TABLE test_tbl(`
-
 `id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,`
-
 `usr_name VARCHAR(30) NOT NULL,`
-
 `email VARCHAR(50)`
-
 `);`
 
 ***
@@ -77,7 +73,6 @@ codeanywhere資料庫使用
 輸入資料內容
 
 `INSERT INTO test_tbl (usr_name,email)`
-
 `VALUES ('name_01','name_01@email');`
 
 ***
